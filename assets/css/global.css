@@ -31,3 +31,93 @@ justify-content: flex-end;
 .icone{
     width: 24px;
 }
+
+.main{
+    border: solid 1px red;
+    width: 100%;
+    max-width: 700px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.profile{
+    border: solid 1px red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__photo{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.profile__name{
+    font-family: 'Damion', cursive;
+    font-size: 52px;
+    font-weight: 400;
+    color: #cba4cb;
+    margin: 16px 0;
+}
+
+.profile__description{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f4f4f4;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.section{
+    border: solid 1px red;
+    padding: 8px;
+    width: 100%;
+    max-width: 550px;
+    margin: 24px auto;
+}
+
+.section__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color:  #cba4cb;
+    margin: 16px 0;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.project{
+    border: solid 1px red;
+    background-color: #3b3b3b;
+    padding: 8px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    flex: 1 1 calc(50% - 16px);
+}
+
+.project__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #cba4cb;
+    margin: 8px 0;
+}
+
+.project__description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #f4f4f4;
+    margin: 8px 0;
+}
