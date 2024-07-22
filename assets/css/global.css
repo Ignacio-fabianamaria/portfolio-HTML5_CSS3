@@ -1,0 +1,33 @@
+body{
+    background-color: #313131;
+}
+
+.header {
+width: 100%;
+max-width: 900px;
+padding: 8px;
+box-sizing: border-box;
+margin: 0 auto;
+display: flex;
+justify-content: flex-end;
+}
+
+.header__link{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.header__link:hover{
+    opacity: .6;
+}
+.header__link:focus{
+    outline: none;
+    background-color: rgba(108, 105, 105, 0.524);
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+.icone{
+    width: 24px;
+}
